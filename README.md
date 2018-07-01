@@ -50,7 +50,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [portfoliobox](https://mateusfs.portfoliobox.net/works) - The actor
+* [Portfoliobox](https://mateusfs.portfoliobox.net/works) - The actor
 
 ## Authors
 
