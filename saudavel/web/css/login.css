@@ -1,0 +1,370 @@
+body{
+	margin: 0px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12px;
+	background: url(../../web/img/bglogin.jpg) repeat-x top left white fixed;
+}
+
+button{
+	cursor: pointer;
+}
+
+
+fieldset{
+	border: 1px solid #CCC;
+	border-style: solid;
+	 -moz-border-radius: 15px;
+	 -webkit-border-radius: 15px;
+	 border-radius: 15px;
+	margin: 15px;
+	padding: 10px;
+}
+
+a{
+	color: #0066cc;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+
+a:hover{
+	color: #000; 
+	text-decoration: underline;
+}
+
+.error{
+	color: #F00;
+	font-size: 11px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.success{
+	color: #3c962c;
+	font-size: 11px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#loginTopo{
+	background-color: #0066CC;
+	margin-top: 0px;
+	height: 25px;
+	line-height: 25px;
+	position: relative;
+	color: #CBDCED;
+}
+
+
+#loginTopo a:hover{
+	text-decoration: underline;
+}
+
+#loginWrapper {
+	position: absolute;
+	width: 450px;
+	height: auto;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+	border: 4px solid #CBDCED;
+	background-color: #FFFFFF;
+}
+
+#consultaCertificado {
+	position: absolute;
+	width: 450px;
+	height: auto;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: 120px;
+	text-align: center;
+}
+
+
+#loginHeader{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.loginField{
+	text-align: left;
+	clear: both;
+	width: 400px;
+}
+
+.loginField .links{
+	padding-top: 5px;
+	width: 200px;
+	float: left;
+	text-align: center;	
+}
+
+.loginField label{
+	color: #575757;
+}
+
+.recuperaSenhaLabel input{
+	width: 170px;
+	border: 1px solid #CCC;
+}
+
+.loginField input{
+	width: 170px;
+	border: 1px solid #CCC;
+}
+
+.loginField a{
+	padding-left: 7px;
+}
+
+.loginLabel{
+	width: 80px;
+	line-height: 25px;
+	text-align: right;
+	padding-right: 10px;
+	float: left;
+}
+
+.recuperaSenhaLabel{
+	width: 50px;
+	line-height: 25px;
+	text-align: right;
+	padding-right: 5px;
+	float: left;
+	padding-bottom: 10px;
+	
+}
+
+.required{
+	color: #F00;
+}
+
+.errorFound{
+	color: #F00;
+	font-size: 11px;
+}
+
+
+#loginEsqueciSenha{
+	clear: both;
+	text-align: right;
+}
+
+
+.btLogin{
+	padding-left: 175px;
+	padding-bottom: 15px;
+}
+
+.btLogin button{
+	 border: 1px solid #c5dbec; 
+	 background: #dfeffc;
+	 font-weight: bold;
+	 font-size: 12px; 
+	 color: #2e6e9e; 
+	 outline: none;
+	 border-radius: 1em;
+	 padding-left: 10px;
+	 padding-right: 10px;
+	 padding-top: 3px;
+	 padding-bottom: 3px;
+}
+
+.btLogin button:hover{
+	border: 1px solid #c5dbfe;
+}
+
+.btLogin button:active{
+	 background: #bad4e8;
+}
+
+
+
+
+
+#esqueciSenha{
+	display: none;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: url('../../web/img/transparent.png');
+}
+
+#esqueciSenhaClose{
+	text-align: right;
+	padding-right: 10px;
+}
+
+#esqueciSenhaCloseButton{
+	text-decoration: none;
+}
+#esqueciSenhaWrap{
+	position: absolute;
+	width: 320px;
+	height: 110px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: #FFF;
+	border-radius: 1em;
+	text-align: center;
+	margin-left: 50%;
+	left: -100px;
+	top: 50%;
+	margin-top: -55px;
+}
+
+#esqueciSenhaFields{
+	padding: 10px;
+	padding-right: 30px;
+}
+
+#btRecuperaSenha{
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+#btRecuperaSenha button{
+	border: 1px solid #c5dbec; 
+	background: #dfeffc;
+	font-weight: bold;
+	font-size: 12px; 
+	color: #2e6e9e; 
+	outline: none;
+	border-radius: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 200px;
+}
+
+#btRecuperaSenha button:hover{
+	border: 1px solid #c5dbfe;
+}
+
+#btRecuperaSenha button:active{
+	 background: #bad4e8;
+}
+
+
+#consultarCertificadoPop{
+	display: none;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: url('../../web/img/transparent.png');
+}
+
+#consultarCertificadoPopClose{
+	text-align: right;
+	padding-right: 10px;
+}
+
+#consultarCertificadoPopCloseButton{
+	text-decoration: none;
+}
+#consultarCertificadoPopWrap{
+	position: absolute;
+	width: 320px;
+	height: 210px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: #FFF;
+	border-radius: 1em;
+	text-align: center;
+	margin-left: 50%;
+	left: -140px;
+	top: 50%;
+	margin-top: -140px;
+}
+
+#consultarCertificadoPopFields{
+	padding: 10px;
+	padding-right: 30px;
+}
+
+#btConsultarCertificadoPop{
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+#btConsultarCertificadoPop button{
+	border: 1px solid #c5dbec; 
+	background: #dfeffc;
+	font-weight: bold;
+	font-size: 12px; 
+	color: #2e6e9e; 
+	outline: none;
+	border-radius: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 200px;
+}
+
+#btConsultarCertificadoPop button:hover{
+	border: 1px solid #c5dbfe;
+}
+
+#btConsultarCertificadoPop button:active{
+	 background: #bad4e8;
+}
+
+#topoInfos{
+	float: left;
+}
+#topoInfos a{
+	color: #CBDCED;
+	font-weight: bold;
+	padding: 0px 5px 0px 10px;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#bandeiras{
+	float: right;
+	padding-right: 63px;
+	text-align: center;
+}
+
+.linguagem_bandeira{
+	float: left;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.consultaCertificadoInput{
+	float: left;
+	width: 80px;
+	margin-right: 5px;
+}
+
+.clear{
+	clear: both;
+}
+
+#consultaCertificadoInfo{
+	text-align: left;
+	font-size: 11px;
+	color: #666;
+}
+
+.consultarCertificadoPopLabel{
+	text-align: left;
+	padding-top: 2px;
+}
+
+
+.consultaCertificadoLinha{
+	padding-top: 5px;
+	text-align: left;
+	font-size: 11px;
+}

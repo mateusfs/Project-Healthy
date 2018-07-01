@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine on
+	Options -Indexes
+
+	RewriteBase /localhost/saudavel/
+
+	Options +FollowSymLinks
+	#IndexIgnore */*
+
+	#  Rules
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !(favicon\.ico|robots\.txt)
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . index.php
+
+	# Block log file access from URL
+	<files logger.log>
+		deny from all
+	</files>
+		
+</IfModule>
