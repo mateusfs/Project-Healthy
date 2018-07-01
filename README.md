@@ -1,6 +1,6 @@
 # Projeto Saudável
 
-One site online store selling organic products. We offer a wide range of products, fruits, organic, vegetables, drinks, among others. All organic, entreguamos at home. Providing foods that meet the health of human beings and the environment. Offer and deliver organic products to more people, expanding the company to all regions of the state of Santa Catarina. Ethics honesty and development with suppliers, customers and employees. - Provide quality products with good service. - Responsibility for the environment.
+The visual applications such as the boxes and the takeaway bags were kept with the name of the restaurant stands out as the main element. Adding haphazardly throughout the various elements, from the cups to the boxes, to the napkins and to the tote bag. The elements add a feeling of fun and light-heartedness to the brand. It is about taking health-food too seriously.
 
 ## Getting Started
 
