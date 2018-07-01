@@ -54,7 +54,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Mateus Ferri Schmitz** - *Initial work* - [PurpleBooth](https://github.com/mateusfs)
+* **Mateus Ferri Schmitz** - *Initial work* - [mateusfs](https://github.com/mateusfs)
 
 ## License
 
