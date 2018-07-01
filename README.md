@@ -1,4 +1,4 @@
-# Projeto Saudável
+# Project Healthy
 
 The visual applications such as the boxes and the takeaway bags were kept with the name of the restaurant stands out as the main element. Adding haphazardly throughout the various elements, from the cups to the boxes, to the napkins and to the tote bag. The elements add a feeling of fun and light-heartedness to the brand. It is about taking health-food too seriously.
 
